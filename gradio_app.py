@@ -6,7 +6,7 @@ import numpy as np
 model = tf.keras.models.load_model('model_nameg.keras')
 
 # class names
-class_names = ["Airplane", "Cute automobile", "Cute Bird", "Kitty", "Deer", 
+class_names = ["Airplanes", "Cute automobile", "Cute Bird", "Kitty", "Deer", 
                "Dog", "Cute frog", "Horse", "Ship", "Truck"]
 
 #preprocess image and prediction
